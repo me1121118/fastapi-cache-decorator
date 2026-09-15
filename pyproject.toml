@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fastapi-cache-decorator"
+version = "0.1.0"
+description = "Lightweight, zero-boilerplate async caching decorator for FastAPI."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "me1121118" }]
+keywords = ["fastapi", "cache", "async", "performance", "redis"]
+dependencies = [
+    "fastapi>=0.100.0",
+]
